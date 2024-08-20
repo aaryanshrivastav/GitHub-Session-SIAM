@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Concert Website (Task 1)</title>
+  </head>
+  <body>
+    <h1>Post Malone IS COMING</h1>
+    <div>
+    <img src="https://www.udiscovermusic.com/wp-content/uploads/2023/02/Post-Malone-GettyImages-1461622551.jpg" width="600px" height="500px">
+    </div>
+    <a href="https://mail.google.com/mail/u/0/#inbox">
+      <button>Sign in</button>
+    </a>
+    <section>
+      <h2>Book Your Seats</h2>
+      <table>
+          <thead>
+              <tr>
+                  <th>Seat Type</th>
+                  <th>Cost</th>
+                  <th>No. of People</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>VIP</td>
+                  <td>Rs1500</td>
+                  <td>
+                      <select name="vip-seats">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                  </td>
+              </tr>
+              <tr>
+                  <td>Regular</td>
+                  <td>Rs1000</td>
+                  <td>
+                      <select name="regular-seats">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                  </td>
+              </tr>
+              <tr>
+                  <td>Economy</td>
+                  <td>Rs500</td>
+                  <td>
+                      <select name="economy-seats">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+  </section>
+
+  <section>
+      <h2>Select a Venue</h2>
+      <form>
+          <div class="form-group">
+              <label><input type="radio" name="venue" value="Santiago Bernabeu"> Santiago Bernabeu</label>
+              <label><input type="radio" name="venue" value="Yankee Stadium"> Yankee Stadium</label>
+              <label><input type="radio" name="venue" value="Old Trafford"> Old Trafford</label>
+          </div>
+          <h3>Feedback</h3>
+          <div class="form-group">
+              <label for="feedback">Your feedback:</label>
+              <textarea id="feedback" name="feedback"></textarea>
+          </div>
+          <input type="submit" value="Submit" onclick="window.location.href='https://in.bookmyshow.com'; return false;">
+      </form>
+  </section>
+
+
+  </body>
+
+
+</html>
